@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Register</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/registr.css">
+</head>
+<body>
+        <main>
+            <div class="contenedor__todo">
+                <div class="caja__trasera">
+                    <div class="caja__trasera-login">
+                        <h3>У вас уже есть аккаунт?</h3>
+                        <p>Если вы зарегистрированы, то войдите</p>
+                        <button id="btn__iniciar-sesion">Войти</button>
+                    </div>
+                    <div class="caja__trasera-register">
+                        <h3>У вас еще нет учетной записи?</h3>  
+                        <p>Зарегистрируйтесь, чтобы иметь возможность войти</p>
+                        <button id="btn__registrarse">Регистрация</button>
+                    </div>
+                </div>
+
+                <div class="contenedor__login-register">
+                    <!--Login-->
+                    <form action="" class="formulario__login">
+                        <h2>Авторизоваться</h2>
+                        <input type="text" placeholder="Электронная почта">
+                        <input type="password" placeholder="Пароль">
+                        <button>Войти</button>
+                    </form>
+
+                    <!--Register-->
+                    <form action="" class="formulario__register">
+                        <h2>Регистрация</h2>
+                        <input type="text" placeholder="Полное имя">
+                        <input type="text" placeholder="Эелектронная почта">
+                        <input type="text" placeholder="Имя пользователя">
+                        <input type="password" placeholder="Пароль">
+                        <button>Регистрация</button>
+                    </form>
+                </div>  
+            </div>
+
+        </main>
+
+        <script src="js/registr.js"></script>
+</body>
+</html>

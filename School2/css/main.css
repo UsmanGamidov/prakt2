@@ -1,35 +1,4 @@
-/* Start Fonts */
-@font-face {
-  font-family: cocogoose;
-  src: url(../fonts/cocogoose/Cocogoose-Pro-Thin-trial.ttf);
-  font-weight: 100;
-}
 
-@font-face {
-  font-family: cocogoose;
-  src: url(../fonts/cocogoose/Cocogoose-Pro-Ultralight-trial.ttf);
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: cocogoose;
-  src: url(../fonts/cocogoose/Cocogoose-Pro-Light-trial.ttf);
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: cocogoose;
-  src: url(../fonts/cocogoose/Cocogoose-Pro-Semilight-trial.ttf);
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: cocogoose;
-  src: url(../fonts/cocogoose/Cocogoose-Pro-trial.ttf);
-  font-weight: 600;
-}
-
-/* Start Global Rules */
 * {
   margin: 0;
   box-sizing: border-box;
